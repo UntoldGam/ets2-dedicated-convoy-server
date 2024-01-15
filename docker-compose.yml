@@ -18,7 +18,7 @@ services:
       - "27016:27016"
       - "27015:27015/udp"
       - "27016:27016/udp"
-     volumes:
+    volumes:
       - "/opt/ets2-server/game-data:/app" # server files
     #  - "/opt/ets2-server/save-data:/home/steam/.local/share/Euro Truck Simulator 2"  # Only needed when using custom server_packages.sii and server_packages.dat
     environment:
